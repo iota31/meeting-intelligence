@@ -1,0 +1,6 @@
+# Independent black-box test dependencies for the retroactive acceptance suite
+# Install separately from production requirements: pip install -r requirements-dev.txt
+pytest>=8.0.0
+pytest-timeout>=2.3.0
+requests>=2.31.0
+python-dotenv>=1.0.0

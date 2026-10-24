@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# Python build output only; a bare lib/ would also hide frontend/src/lib.
+/lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# Uploads and runtime data (not committed)
+uploads/
+data/
+cache/
+*.cache
+*.db
+*.sqlite
+dg_out.json
+
+# Audio / media uploads (user data, not fixtures)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.webm
+!tests/fixtures/*.wav
+
+
+
+# Logs
+*.log
+logs/
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+test-results/
+frontend/test-results/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ChromaDB (vector DB, local only)
+chroma/
+*.chroma
+
+# Ollama models (large, managed externally)
+.ollama/
+
+# HuggingFace cache (large, managed externally)
+.cache/huggingface/
+
+# WhisperX / audio model caches
+.cache/whisper*/
+.cache/torch/

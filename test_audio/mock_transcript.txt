@@ -1,0 +1,14 @@
+[00:00:00] Alice: Good morning, everyone. Let's get started. We have a lot to cover regarding the upcoming launch.
+[00:00:10] Bob: Morning Alice. I have the updated timelines here.
+[00:00:15] Alice: Great. First item: have we finalized the launch date? We previously discussed August 1st.
+[00:00:25] Charlie: I reviewed the marketing timeline, and August 1st is cutting it very close. Can we push it to August 15th?
+[00:00:35] Alice: I agree. Let's make that a firm decision. The launch date will be August 15th.
+[00:00:45] Bob: Understood. I will update all internal roadmaps to reflect August 15th.
+[00:00:55] Alice: Good. Now regarding the ad campaign, who is handling the social media graphics?
+[00:01:05] Charlie: I can take that. I'll have the graphics ready by next Tuesday.
+[00:01:15] Alice: Excellent. So that's an action item for Charlie to create social media graphics, due next Tuesday.
+[00:01:25] Charlie: Got it. 
+[00:01:30] Bob: Should we also email the beta testers about the delay?
+[00:01:35] Alice: Yes, please handle that Bob. Send an email out to the beta group by tomorrow afternoon.
+[00:01:45] Bob: Will do.
+[00:01:50] Alice: Alright, I think that covers all the critical path items. Thanks everyone.

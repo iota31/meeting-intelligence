@@ -1,0 +1,5 @@
+[00:00:00] Alice: Let's finalize the launch date.
+[00:00:04] Bob: I propose we launch on 2026-08-01.
+[00:00:10] Alice: Agreed. Decision: launch date is 2026-08-01.
+[00:00:15] Carol: I will prepare the release notes by Friday.
+[00:00:20] Alice: Thanks. Action: Carol to prepare release notes.

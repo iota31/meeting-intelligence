@@ -1,0 +1,53 @@
+@import "@fontsource-variable/inter";
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0f;
+  --color-panel: rgba(255, 255, 255, 0.03);
+  --color-panel-border: rgba(255, 255, 255, 0.08);
+  --color-accent-purple: #b061ff;
+  --color-accent-cyan: #3bd4ff;
+  --font-sans: 'Inter Variable', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-gray-200 antialiased selection:bg-accent-purple/30;
+    font-family: 'Inter Variable', sans-serif;
+  }
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-white/20 transition-colors;
+}
+
+/* Glassmorphism Panel Utilities */
+@layer utilities {
+  .glass-panel {
+    @apply bg-panel border border-panel-border backdrop-blur-md rounded-xl shadow-xl;
+  }
+
+  .glow-card {
+    @apply relative transition-all duration-300;
+  }
+
+  .glow-card::before {
+    content: '';
+    @apply absolute inset-0 rounded-xl opacity-0 transition-opacity duration-300 pointer-events-none;
+    background: radial-gradient(800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.06), transparent 40%);
+  }
+
+  .glow-card:hover::before {
+    @apply opacity-100;
+  }
+}
