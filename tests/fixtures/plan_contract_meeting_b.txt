@@ -1,0 +1,7 @@
+[00:00:00] Diana: Welcome to the infrastructure sync.
+[00:00:06] Evan: The database cluster in region-west needs upgrading this quarter.
+[00:00:15] Diana: Decision: we will upgrade the region-west database cluster by 2026-10-01.
+[00:00:25] Evan: Who takes ownership of the upgrade runbook?
+[00:00:31] Diana: Action item: Evan prepares the upgrade runbook by 2026-09-20.
+[00:00:42] Evan: Are we also migrating region-east?
+[00:00:48] Diana: Not in this cycle. region-east stays on the current version.

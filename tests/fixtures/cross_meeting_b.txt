@@ -1,0 +1,5 @@
+[00:00:00] Alice: Meeting B begins.
+[00:00:05] Bob: Project Beta budget is set at $50000.
+[00:00:12] Alice: Decision: Project Beta budget approved at $50000.
+[00:00:20] Carol: I'll track Beta expenses weekly.
+[00:00:28] Alice: Action item: Carol tracks Beta expenses every Monday.

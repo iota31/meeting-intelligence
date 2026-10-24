@@ -1,0 +1,7 @@
+[00:00:00] Alice: Good morning. Let's review the project timeline.
+[00:00:05] Bob: The design phase will complete by 2026-07-30.
+[00:00:12] Alice: Decision: design phase ends 2026-07-30.
+[00:00:20] Carol: I'll schedule the client review for next week.
+[00:00:28] Alice: Action item: Carol schedules client review by 2026-07-28.
+[00:00:35] Bob: Any questions on the budget?
+[00:00:40] Alice: No budget details in this meeting.
